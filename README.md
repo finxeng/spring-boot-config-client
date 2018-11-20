@@ -12,4 +12,8 @@ git中文件修改push完毕后，需要调用config-client项目：post http://
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        
+        
+        
+        java -jar spring-boot-config-client-0.0.1-SNAPSHOT.jar --spring.profiles.active=pro
 
